@@ -1,0 +1,14 @@
+{
+  "domain": "skydrop",
+  "name": "SkydropHASS",
+  "documentation": "https://github.com/snicker/skydrop_hass",
+  "dependencies": [],
+  "config_flow": true,
+  "codeowners": [
+    "@snicker"
+  ],
+  "requirements": [
+    "skydroppy"
+  ],
+  "homeassistant": "0.96.0"
+}

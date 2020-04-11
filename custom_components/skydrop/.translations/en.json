@@ -1,0 +1,19 @@
+{
+    "config": {
+        "title": "Skydrop",
+        "step": {
+            "user": {
+                "title": "Skydrop",
+                "description": "If you need help with the configuration have a look here: https://github.com/snicker/skydrop_hass",
+                "data": {
+                    "client_key": "Enter client key:",
+                    "client_secret": "Enter client secret:"
+                }
+            }
+        },
+        "error": {},
+        "abort": {
+            "single_instance_allowed": "Only a single configuration of Skydrop is allowed."
+        }
+    }
+}

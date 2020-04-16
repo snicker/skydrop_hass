@@ -1,0 +1,7 @@
+{
+    "name": "Skydrop Sprinkler Controller",
+    "render_readme": true,
+    "country": "US",
+    "domains": ["switch"],
+    "homeassistant": "0.104"
+}

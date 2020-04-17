@@ -36,7 +36,7 @@ from .const import (
     VERSION,
 )
 
-MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=15)
+MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=30)
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -52,7 +52,7 @@ CONFIG_SCHEMA = vol.Schema(
     extra=vol.ALLOW_EXTRA,
 )
 
-SCAN_INTERVAL = 15 #[todo] add this to configuration i guess
+SCAN_INTERVAL = 30 #[todo] add this to configuration i guess
 
 
 async def async_setup(hass: HomeAssistant, config: dict):

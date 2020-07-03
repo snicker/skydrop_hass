@@ -6,7 +6,7 @@ DOMAIN_STORAGE = f"{DOMAIN_DATA}_store"
 VERSION = "1.0.3"
 PLATFORMS = ["switch"]
 REQUIRED_FILES = [
-    ".translations/en.json",
+    "translations/en.json",
     "binary_sensor.py",
     "const.py",
     "config_flow.py",

@@ -110,6 +110,12 @@ async def async_setup_entry(hass, config_entry):
     await test_login_status(hass, config_entry, setup_platform_callback)
     return True
 
+async def async_remove_entry(hass, config_entry):
+    """Remove this integration using UI."""
+    skydrop_store = storage.Store(hass, VERSION, DOMAIN_STORAGE)
+    await skydrop_store.async_remove()
+
+
 async def test_login_status(hass, config_entry, setup_platform_callback):
     data_client = hass.data[DOMAIN_DATA]["client"]
     if data_client.are_tokens_good():

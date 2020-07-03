@@ -3,9 +3,12 @@ from datetime import timedelta
 import logging
 
 from homeassistant.components.switch import (
-    ENTITY_ID_FORMAT,
-    SwitchDevice
+    ENTITY_ID_FORMAT
 )
+try:
+    from homeassistant.components.switch import SwitchDevice
+except ImportError:
+    from homeassistant.components.switch import SwitchEntity as SwitchDevice
 from homeassistant.core import callback
 from homeassistant.helpers.dispatcher import async_dispatcher_connect
 from homeassistant.helpers.entity import generate_entity_id

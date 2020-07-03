@@ -3,7 +3,7 @@
 DOMAIN = "skydrop"
 DOMAIN_DATA = f"{DOMAIN}"
 DOMAIN_STORAGE = f"{DOMAIN_DATA}_store"
-VERSION = "0.0.1"
+VERSION = "1.0.3"
 PLATFORMS = ["switch"]
 REQUIRED_FILES = [
     ".translations/en.json",

@@ -8,7 +8,7 @@
     "@snicker"
   ],
   "requirements": [
-    "skydroppy"
+    "skydroppy=0.1.3"
   ],
   "homeassistant": "0.96.0"
 }

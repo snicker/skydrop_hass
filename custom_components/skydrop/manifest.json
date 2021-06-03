@@ -1,6 +1,7 @@
 {
   "domain": "skydrop",
   "name": "SkydropHASS",
+  "version": "1.0.6",
   "documentation": "https://github.com/snicker/skydrop_hass",
   "dependencies": [],
   "config_flow": true,
